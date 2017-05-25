@@ -415,7 +415,7 @@ public class Main extends Application {
 
     void createPage3() {
         htTab = new Tab();
-        htTab.setText("Huffman ht_tree");
+        htTab.setText("Huffman tree");
         root.getTabs().add(htTab);
         GridPane gridPane = new GridPane();
         htTab.setContent(gridPane);
